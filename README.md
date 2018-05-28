@@ -6,6 +6,7 @@ Proof of Concept Static Web Shop.
 
     $ composer install
     $ cp config/config.php.example config/config.php
+    $ mkdir output
     $ php bin/generate.php
 
 Check the files in `output/` folder.
