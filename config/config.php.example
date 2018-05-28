@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'pages' => [
+        'about' => 'About',
+        'contact' => 'Contact',
+    ],
+    'products' => [
+        1000 => [
+            'cat' => 'a:b:c',
+            'name' => 'Product 1000',
+            'desc' => 'Description 1000.',
+            'price' => 1000,
+        ],
+        1001 => [
+            'cat' => 'a:b:d',
+            'name' => 'Product 1001',
+            'desc' => 'Description 1001.',
+            'price' => 1001,
+        ],
+        1002 => [
+            'cat' => 'z:x:y',
+            'name' => 'Product 1002',
+            'desc' => 'Description 1002.',
+            'price' => 1002,
+        ],
+    ],
+];

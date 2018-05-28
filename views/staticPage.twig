@@ -1,0 +1,14 @@
+{% extends "base.twig" %}
+
+{% block header %}
+    <ul>
+    {% for key, itemName in menuItems %}
+        <li><a href="{{ key }}.html ">{{ itemName }}</a></li>
+    {% endfor %}
+    </ul>
+{% endblock %}
+
+{% block content %}
+    <h1>{{ pageTitle }}</h1>
+    {{ pageContent|raw }}
+{% endblock %}

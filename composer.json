@@ -1,0 +1,13 @@
+{
+    "name": "fkooman/joep",
+    "authors": [
+        {
+            "name": "François Kooman",
+            "email": "fkooman@tuxed.net"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.4",
+        "michelf/php-markdown": "^1.8"
+    }
+}
